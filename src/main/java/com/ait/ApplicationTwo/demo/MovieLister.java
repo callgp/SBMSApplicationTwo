@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class MovieLister {
 	
 	//@Value("2023")
-	@Value("${movie.releasdYear")
+	@Value("${movie.releasedYear}")
 	private int releasedYear;
 	
 	@Autowired

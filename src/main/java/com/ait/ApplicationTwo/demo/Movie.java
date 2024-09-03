@@ -5,19 +5,18 @@ public class Movie {
 	private final String movieName;
 
 	public Movie(Integer i, String string) {
-		this.releasedYear = 0;
+		this.releasedYear = i;
 		// TODO Auto-generated constructor stub
-		this.movieName = "";
+		this.movieName = string;
 	}
 
-	public int getMovieName() {
-		// TODO Auto-generated method stub
-		return 0;
+	public Integer getReleasedYear() {
+		return releasedYear;
 	}
 
-	public String getReleasedYear() {
-		// TODO Auto-generated method stub
-		return null;
+	public String getMovieName() {
+		return movieName;
 	}
+
 
 }

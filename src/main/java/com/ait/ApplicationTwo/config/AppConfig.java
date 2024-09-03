@@ -8,7 +8,7 @@ import org.springframework.context.annotation.PropertySource;
 import com.ait.ApplicationTwo.demo.MovieFinder;
 
 @Configuration
-@ComponentScan(basePackages="in.ait")
+@ComponentScan(basePackages="com.ait")
 @PropertySource("application.properties")
 public class AppConfig {
 
